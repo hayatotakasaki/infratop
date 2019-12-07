@@ -1,3 +1,10 @@
-.color_yellow {
+.color_yellow
+{
   color: darkorange;
+}
+.box1
+{
+  width:  300px;
+  height: 300px;
+  color:  #00ff7f;
 }
