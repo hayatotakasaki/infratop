@@ -1,0 +1,49 @@
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b
+}
+a{
+  text-decoration: none;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+span, p, h2{
+  font-family: sans-serif;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.step{
+  width: 300px;
+  padding: 10px;
+  border: 1px solid;
+  margin-right: 30px;
+  position: relative;
+  float: left;
+}
+.step:nth-child(3)
+{
+  margin-right: 0;
+}
+
+.step-marker{
+  color: #ffffff;
+  background-color: orange;
+  background-size: contain;
+  position: absolute;
+top: 0;
+left: 0;
+}
+.step-image{
+  top: 0;
+  left: 0;
+  width: 280px;
+}
